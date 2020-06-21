@@ -26,10 +26,18 @@ handleChange = e => {
       this.setState({filterResults:filtered})
 } 
 
+handleSubmit = event => {
+  event.preventDefault();
+  this.getUsers(this.state.search);
+};
+
+
 render(){
   return (
     <div>
-     <Form handleChange={this.handleChange} /> 
+     <Form search={this.state.search}
+          handleChange={this.handleChange}
+           handleSubmit={this.handleSubmit} /> 
      <Results users={this.state.filterResults} /> 
     </div>
   );
