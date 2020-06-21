@@ -19,7 +19,7 @@ componentDidMount(){
     });
   }).catch( e => console.log(e))
 }
-
+git 
 handleChange = e => {
   const searchTerm = e.target.value;
   const filtered = this.state.allUser.filter( user => user.name.first.indexOf(searchTerm) >= 0);
