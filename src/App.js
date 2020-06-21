@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { Component } from 'react';
 import Form from './components/Form';
+import API from './API/API'
 import './App.css';
 
 class App extends Component {
@@ -9,7 +10,7 @@ class App extends Component {
 }
  
 componentDidMount(){
-  API.getUser()
+  API.getUsers()
   .then( users => {
     this.setState({
       allUser: users.data.results,
@@ -27,16 +28,13 @@ handleChange = e => {
 } 
 
 render(){
-  
-}
-}
-
-function App() {
   return (
     <div>
      <Form />  
     </div>
   );
 }
+}
+
 
 export default App;
