@@ -22,18 +22,13 @@ class App extends Component {
       .catch((e) => console.log(e));
   }
 
-  handleChange = (e) => {
+
+  handleChange = e => {
     const searchTerm = e.target.value;
-    const filtered = this.state.allUser.filter(
-      //(user) => user.name.first.indexOf(searchTerm) >= 0
-      (user) =>
-        (user.name.first + user.name.last + user.email + user.phone + user.location.city + user.location.state)
-          .toLowerCase()
-          .includes(searchTerm.toLowerCase())
-    );
-    //  || user.name.last.indexOf(searchTerm)>=0 || user.email.indexOf(searchTerm)>=0 || user.phone.first.indexOf(searchTerm)>=0 || user.location.city.indexOf(searchTerm)>=0 || user.location.state.indexOf(searchTerm)>=0 );
-    this.setState({ filterResults: filtered });
-  };
+    const filtered = this.state.allUsers.filter(user => user.name.first.indexOf(searchTerm)>=0 || user.name.last.indexOf(searchTerm)>=0 || user.email.indexOf(searchTerm)>=0 || user.phone.indexOf(searchTerm)>=0 || user.location.city.indexOf(searchTerm)>=0 || user.location.country.indexOf(searchTerm)>=0);
+    this.setState({filteredResults: filtered})
+  }
+ 
 
   handleSubmit = (event) => {
     event.preventDefault();
