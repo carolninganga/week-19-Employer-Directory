@@ -1,4 +1,4 @@
-
+![Untitled_ Jul 6, 2020 7_33 AM](https://user-images.githubusercontent.com/33443452/86590519-c23f1800-bf5d-11ea-8c26-91b43efaa59e.gif)
 # Employer Directory
 
 ## Description
