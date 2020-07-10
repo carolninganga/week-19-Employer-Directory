@@ -2,7 +2,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import API from './utils/API'
-import Form from './components/Form';
+import Form from './components/Form/Form';
 import Results from './components/Results';
 
 
