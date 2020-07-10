@@ -10,7 +10,12 @@ Created an employee directory with React. Brokeup application's UI into componen
 To install necessary dependencies, run the following command:
 npm i
 
-## Usage
+## Technology Used
+- Random User API
+- React
+- animate css
+- HTML
+- Bootstrap
 
 
 ## Contributing 
