@@ -5,7 +5,7 @@ function Results(props) {
     console.log(props)
         return (
             <>
-        <h1 id='title'>Company Users Table</h1>
+        <h1 className="animate__animated animate__bounce" id='title'>Company Users Table</h1>
         <table id='usersTable' className="table">
         <thead>
             <tr>
