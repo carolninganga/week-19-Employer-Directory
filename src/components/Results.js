@@ -1,4 +1,5 @@
 import React from 'react';
+import 'animate.css';
 
 function Results(props) {
     console.log(props)
