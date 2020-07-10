@@ -29,5 +29,5 @@ npm test
 
 ## Questions
 
-For questions about the project contact carolninganga or directly at null.
+For questions about the project contact carolninganga or directly at carolninganga@gmail.com.
 
