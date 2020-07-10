@@ -2,23 +2,8 @@
 # Employer Directory
 
 ## Description
-Created an employee directory with React. Brokeup application's UI into components, manage component state, and respond to user events. The purpose of this application was to allow the user to search an employee’s information by filtering and sorting by name, city or gender.
+Created an employee directory with React. Brokeup application's UI into components, manage component state, and respond to user events. A company search directory that uses filter and sort methods to help an employer find information about employees.
 
-## Table of Contents
-
-* Installation
-
-* Usage
-
-* License
-
-* Contributing
-
-* Tests
-
-* links
-
-* Questions
 
 ## Installation
 
